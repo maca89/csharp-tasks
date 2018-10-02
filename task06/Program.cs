@@ -19,16 +19,18 @@ namespace task05
         static void Main(string[] args)
         {
             // Ask user for the name.
-            string name = AskForName();
+            string name = "";
 
-            if (name == "") {
-                // No name provided, print error.
-                Console.WriteLine("You didn't write any name.");
+            while (name == "") {
+                name = AskForName();
+
+                if (name == "") {
+                    Console.WriteLine("You didn't write any name.");
+                }
             }
-            else {
-                // Print their names back.
-                Console.WriteLine("Nice to meet you, " + name + ".");
-            }
+
+            // Print their names back.
+            Console.WriteLine("Nice to meet you, " + name + ".");
         }
     }
 }
