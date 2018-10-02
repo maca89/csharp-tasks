@@ -4,7 +4,7 @@ namespace task04
 {
     class Program
     {
-        // Ask for a user's name and then prints it.
+        // Ask for user's name and then prints it.
         // Enhanced with user error detection.
         static void Main(string[] args)
         {
@@ -12,7 +12,7 @@ namespace task04
             Console.Write("Please, write your name and press ENTER: ");
 
             // Wait until they write their names.
-            var name = Console.ReadLine();
+            string name = Console.ReadLine();
 
             if (name == "") {
                 // No name provided, print error.
