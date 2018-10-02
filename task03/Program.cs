@@ -8,7 +8,7 @@ namespace task03
         static void Main(string[] args)
         {
             // Tell users what is expected of them.
-            Console.Write("Please, write your name and press ENTER: ");
+            Console.Write("Please, write your name: ");
 
             // Wait until they write their names.
             string name = Console.ReadLine();
