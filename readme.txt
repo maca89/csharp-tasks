@@ -1,0 +1,1 @@
+This repository hold simple tutorial C# tasks.
